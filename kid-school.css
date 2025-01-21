@@ -281,8 +281,8 @@ font-weight: 700;
       background-image:linear-gradient(
             to bottom , 
             rgba(252, 246, 246, 0), 
-            rgba(231, 100, 118, 0.171)) , url("assets/bg.png");
-      background-repeat: no-repeat;
+            rgba(231, 100, 118, 0.192)) , url("assets/bg.png");
+      background-repeat:repeat-y ;
       background-size: contain;
       background-position: ;
 }
@@ -290,6 +290,7 @@ font-weight: 700;
       color: rgb(0, 0, 0);
 font-size: 46px;
 font-weight: 700;
+      text-align: center;
 
 }
 
@@ -327,6 +328,7 @@ font-weight: 700;
 font-family: Quicksand;
 font-size: 24px;
 font-weight: 700;
+margin-top: 2rem;
 }
 
 .flex-para {
@@ -382,7 +384,18 @@ margin-top: 50px;
       border-radius: 47.93px;
 background: rgb(149, 178, 38);
 color: aliceblue;
-padding: 10px 15px;
+padding: 15px 30px;
+}
+
+.button-h{
+      background-color: #5D58F0;
+      padding: 15px 30px;
+}
+
+.button-f{
+      background-color: #3CD8E8;
+      margin: -15px 0 0 80px;
+      padding: 15px 38px;
 }
 
 .bd{
@@ -393,6 +406,78 @@ padding: 10px 15px;
       color: aliceblue;
       margin: 50px auto;
 }
+
+.footer{
+      background-color: #01ACFD;
+      height: 366px;
+}
+
+.footer-paragraph{
+      color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 20px;
+font-weight: 400;
+}
+
+.footer h2{
+      color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 24px;
+font-weight: 700;
+}
+
+.footer-list ul li{
+      list-style: none;
+      margin-top: 10px;
+}
+
+.footer-list ul li a{
+      text-decoration: none;
+      font-family: Quicksand;
+font-size: 2.5rem;
+font-weight: 500;
+color: rgb(255, 255, 255);
+
+
+}
+.footer-h{
+      color: rgb(255, 255, 255);
+      font-family: Quicksand;
+      font-size: 26px;
+      font-weight: 700;
+}
+
+.footer-para{
+      padding: 0 0 0 0px;
+}
+.foot-icon{
+      display: flex;
+      gap: 10px;
+      margin-bottom: 2rem;
+      justify-content: start;
+      align-items: center;
+}
+
+
+.footer{
+      display: flex;
+      justify-content: center;
+      padding-top:9rem ;
+      gap: 12rem;
+      
+}
+.footer-media{
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+}
+.footer-icon img{
+      margin-left: 5px;
+}
+.footer-icon :first-child{
+      margin-left: 0;
+}
+
 
 @media screen and (max-width: 900px) {
       .nav-list ul li , .button-1{
@@ -439,5 +524,10 @@ padding: 10px 15px;
       hr{
             display: block;
       }
+
+      .flex{
+            display: none;
+      }
+      
       
 }
