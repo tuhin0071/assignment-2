@@ -651,6 +651,10 @@ color: rgb(255, 255, 255);
             align-items: ;
       }
       
+      .grid-text{
+            position: relative;
+            top: -2rem;
+      }
 
       .grid-box{
             width: 100%;
@@ -667,6 +671,11 @@ color: rgb(255, 255, 255);
       .heading-img img{
             width: 40rem;
             height: auto;
+      }
+
+      .grid-text{
+            position: relative;
+            top: -4rem;
       }
 
       .button-g{
